@@ -1,0 +1,308 @@
+body {
+    background-color: #E287D9;
+    margin: 100px;
+    padding: 0px;
+}
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(53,39,89);
+    background: linear-gradient(180deg, #352759 0%, #4D2F6B 21.35%, #C32D88 100%);
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.item-row {
+    width: 49%;
+    height: 55%;
+    background-color: transparent;
+    z-index: 2;
+}
+.item-row:nth-child(1){
+//Something here
+font-size: 10px;
+}
+
+.item-row:nth-child(1) .netflix_movie_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 75px;
+    background: -webkit-linear-gradient(100deg, #9D6CD7 0%, #E64EFF 99.99%, #B98AE2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px 0px 0px 60px; 
+    margin: 0px;
+} 
+
+.item-row:nth-child(1) .logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 75px;
+    background: -webkit-linear-gradient(100deg, #EB326C 0%, #B98AE2 99.99%, #B98AE2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 60px 0px 0px 60px; 
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+} 
+
+.item-row:nth-child(1) ul {
+    margin: 0px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(180deg, #9D6CD7 0%, #E64EFF 99.99%, #B98AE2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.item-row:nth-child(1) ul li {
+    display: inline-block;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    font-family: "Poppins";
+}
+
+//Text within li list
+.item-row:nth-child(1) .netflix-info-text {
+    font-size: 50px;
+
+}
+
+.item-row:nth-child(1) .netflix-info-banner {
+    background-color: #191429;
+    -webkit-background-clip: none;
+    -webkit-text-fill-color: #FE53A5;
+    padding: 0px 7px 0px 7px;
+    border-radius: 3px;
+    font-family: "Poppins";
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.netflix-movie-description p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding-left: 60px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6BCFF 33.85%, #ED7DFF 66.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 0px;
+}
+.netflix-movie-btn-group {
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.netflix-movie-btn-group button {
+    color: white;
+    background-color: #D3478E;
+    letter-spacing: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 184px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-right: 10px;
+    transition: 250ms ease-in-out;
+    text-transform: uppercase;
+}
+.netflix-movie-btn-group button:hover {
+    background: #EB326C;
+}
+.item-row:nth-child(2) {
+    background-image: url(../Images/netflixBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    opacity: 0.65;
+    filter: drop-shadow(0px 12px 10px rgba(0, 0, 0, 0.25));
+}
+
+.item-row:nth-child(3) {
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 96%;
+    height: auto;
+    margin-bottom: 0%;
+}
+.item-row3-inner {
+    text-align: center;
+    width: 25%;
+    padding-left: 10px;
+}
+
+
+.item-row3-inner img {
+    height: 250px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 18px rgba(57, 45, 92, 0.61);
+    transition: 250ms ease;
+}  
+
+.item-row3-inner img:hover {
+   outline: 4px solid #D3478E; 
+   outline-offset: 10px;
+   border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+   transform: scale(0.9)
+}
+
+//-- Background images -- 
+
+//Tree
+.treeSt {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.treeSt {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: calc(30% - 3em);
+}
+//-------
+
+//Cloud 1
+.cloud {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    filter: blur(2px);
+    animation: MoveUpDown 5s linear infinite;
+}
+
+.cloud {
+    position: absolute;
+    bottom: 13%;
+    right: 6%;
+    filter: blur(2px);
+    animation: MoveUpDown 5s linear infinite;
+}
+//------- end of cloud 1
+
+//Cloud 2 
+.cloud2 {
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    filter: blur(6px);
+    animation: MoveUpDown 5s linear infinite;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    filter: blur(6px);
+    animation: MoveUpDown 5s linear infinite;
+}
+//------- end of cloud 2
+
+//Cloud 3
+
+.cloud3 {
+    position: absolute;
+    bottom: 25%;
+    left: 12%;
+    filter: blur(6px);
+    z-index: 1;
+    animation: MoveUpDown 5s linear infinite;
+}
+
+.cloud3 {
+    position: absolute;
+    bottom: 25%;
+    left: 12%;
+    filter: blur(6px);
+    z-index: 1;
+    animation: MoveUpDown 5s linear infinite;
+}
+
+//Bat 1
+
+.bat1 {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 70px;
+}
+
+.bat1 {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 70px;
+}
+
+//Bat 2
+.bat2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 30px;
+}
+
+.bat2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 30px;
+}
+
+//Bat 2
+.bat3 {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: auto;
+}
+
+.bat3 {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 30px;
+}
+
+//Spider
+.spider {
+    position: absolute;
+    bottom: 32%;
+    right: 10%;
+    width: 21px;
+}
+
+.spider {
+    position: absolute;
+    bottom: 32%;
+    right: 10%;
+    width: 21px;
+}
+
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }

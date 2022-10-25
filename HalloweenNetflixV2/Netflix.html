@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Halloween Theme</title>
+    <link rel="stylesheet" href="Stylesheets/Netflix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="Netflix.js"></script>
+</head>
+<body>
+    
+    <span class="container"> 
+        <div class="item-row">
+            <p class="logo">Netflix</p>
+            <p id="title" class="netflix_movie_title">Current title</p>
+            <span class="netflix-info"> 
+                <ul>
+                    <li>
+                        <p id="rating" class="netflix-info-text">Rating</p>
+                    </li>
+                    <li> <span class="netflix-info-banner">IMDB</span></li>
+                    <li>
+                        <p id="time" class="netflix-info-text">Time</p>
+                    </li>
+                    <li>
+                        <span class="netflix-info-banner">HD</span>
+                    </li>
+                    <li>
+                        <p id="" class="netflix-info-text">Released</p>
+                    </li>
+                    <li>
+                        <p id="release" class="netflix-info-banner">Date</p>
+                    </li>
+                </ul>
+            </span>
+            <span class="netflix-movie-description">
+                <p id="describeMe">
+                    Streama obegränsat med filmer och serier på mobil, surfplatta, 
+                    dator och tv utan att betala extra.Streama obegränsat med filmer 
+                    och serier på mobil, surfplatta, dator och tv utan att betala extra.
+
+                    Detta är ett test theme för Netflix Halloween seasson Oktober,
+                    Coolt va? Gjort enbart med CSS & HTML
+                </p>
+            </span>
+            <div class="netflix-movie-btn-group">
+                <button>play now</button>
+                <button>more info</button>
+            </div>
+        </div>
+        <div class="item-row" id="background"></div>
+        <div class="item-row">
+            <div class="item-row3-inner">
+                <a onclick="getFirstBanner()"><img src="../Images/NetflixImage1.png"></a>
+            </div>
+            <div class="item-row3-inner">
+                <a onclick="getSecondBanner()"><img src="../Images/NetflixImage2.png"></a>
+            </div>
+            <div class="item-row3-inner">
+                <a onclick="getThirdBanner()"><img src="../Images/NetflixImage3.png"></a>
+            </div>
+            <div class="item-row3-inner">
+                <a onclick="getFourthBanner()"><img src="../Images/NetflixImage4.png"></a>
+            </div>
+        </div>
+        <img src="../BackgroundImages/cloud.png" class="cloud">
+        <img src="../BackgroundImages/cloud2.png" class="cloud2">
+        <img src="../BackgroundImages/cloud3.png" class="cloud3">
+        <img src="../BackgroundImages/Bat1.png" class="bat1">
+        <img src="../BackgroundImages/Bat2.png" class="bat2">
+        <img src="../BackgroundImages/Bat3.png" class="bat3">
+        <img src="../BackgroundImages/Spider.png" class="spider">
+        <img src="../BackgroundImages/Tree.png" class="treeSt">
+    </span>
+
+</body>
+</html>
